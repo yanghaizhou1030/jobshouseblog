@@ -1,0 +1,236 @@
+@charset "UTF-8";
+/*Css Document */
+
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+}
+
+body
+{
+    background-color: rgb(245, 245, 245);
+    font-family: 微软雅黑;
+}
+
+.top
+{
+    width: 100%;
+    min-width: 1024px;
+    height: 40px;
+    margin: 0 auto;
+    background-color: #111;
+    line-height: 60px;
+    color: white;
+
+}
+
+.top_jh
+{
+    float: left;
+    font-size: 14px;
+    line-height: 40px;
+    margin-left: 10px;
+    #background-color: white;
+}
+
+.top_jh img
+{
+    vertical-align: bottom;
+}
+
+.top_nav
+{
+    float: left;
+    margin-left: 10px;
+    line-height: 40px;
+}
+
+.top_nav a
+{
+    float: left;
+    list-style-type: none;
+    text-align: center;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.top_nav a:link, .top_nav a:visited
+{
+    text-decoration: none;
+    color: white;
+}
+
+.top_nav a:hover, .top_nav a:active
+{
+    text-decoration: none;
+    color: #800000;
+}
+
+.top_search
+{
+    float: left;
+    margin: 0px 15px;
+    height: 40px;
+    #width: 200px;
+    line-height: 40px;
+    #background-color: greenyellow;
+}
+
+.search_text
+{
+    height: 20px;
+    width: 200px;
+    background: white url("../images/search_logo.png") no-repeat right center;
+    padding-right: 20px;
+    border: 1px white;
+}
+
+.top_user
+{
+    float: right;
+    line-height: 40px;
+    margin-right: 10px;
+}
+
+.top_user a
+{
+    margin: 0px 8px;
+}
+
+.top_user img
+{
+    vertical-align: bottom;
+}
+
+.top_user a:link, .top_user a:visited
+{
+    text-decoration: none;
+    color: white;
+}
+
+.top_user a:hover, .top_user a:active
+{
+    text-decoration: none;
+    color: #800000;
+}
+
+
+
+
+
+.bottom
+{
+    width: 100%;
+    min-width: 1024px;
+    background-color: #333;
+    color: #BBB;
+    position: fixed;
+    bottom: 0px;
+    text-align: center;
+}
+
+.bottom a
+{
+    margin: 0 10px;
+}
+
+.bottom img
+{
+    width: 80px;
+    height: 80px;
+    margin: 10px 10px;
+    vertical-align: middle;
+}
+
+.bottom a:link, .bottom a:visited
+{
+    text-decoration: none;
+    color: white;
+}
+
+.bottom a:hover, .bottom a:active
+{
+    text-decoration: none;
+    color: #800000;
+}
+
+
+
+
+.main_content
+{
+    width: 1024px;
+    min-height: 100px;
+    margin: 10px auto;
+    #background-color: #AAA;
+}
+
+.main_content a:link, .main_content a:visited
+{
+    text-decoration: none;
+    color: #003366;
+}
+
+.main_content a:hover, .main_content a:active
+{
+    text-decoration: none;
+    color: #800000;
+}
+
+
+.controls
+{
+    display: block;
+    #margin-bottom: 10px;
+    margin: 10px 10px;
+}
+
+.main_content_right
+{
+    width: 200px;
+    float: right;
+    margin: 10px 5px;
+    background-color: #700;
+    text-align: center;
+    border: 1px black;
+}
+
+.main_content_right_menu
+{
+    width: 100%;
+    line-height: 30px;
+}
+
+.main_content_right_menu div:hover
+{
+    background-color: #333;
+}
+
+.main_content_right_menu_item
+{
+    border: 1px white solid;
+}
+
+.main_content_right_menu_item a
+{
+    font-size: 20px;
+}
+
+.main_content_right_menu_item a:link, .main_content_right_menu_item a:visited
+{
+    text-decoration: none;
+    color: #EEE;
+}
+
+.main_content_right_menu_item a:hover, .main_content_right_menu_item a:active
+{
+    text-decoration: none;
+    color: white;
+}
+
+.main_content_left table
+{
+    border-spacing: 10px;
+}

@@ -1,0 +1,7 @@
+#how to run?
+ mvn jetty:run
+ or
+ ./mvnw jetty:run with maven wrapper
+
+#how to create a maven wrapper?
+ mvn -N io.takari:maven:wrapper -Dmaven=3.3.0
